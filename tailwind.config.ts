@@ -1,8 +1,8 @@
 export default {
-    content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
-    corePlugins: {
-        preflight: true,
-    },
-    theme: {},
-    plugins: [],
-}
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {},
+  plugins: [],
+};
