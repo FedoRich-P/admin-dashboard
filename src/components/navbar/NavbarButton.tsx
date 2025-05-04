@@ -14,4 +14,4 @@ export function NavbarButton({className, children, aria}: Props) {
   >
     {children}
   </button>
-};
+}
