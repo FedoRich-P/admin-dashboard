@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 @import "tailwindcss";
 
+* {
+    box-sizing: border-box;
+}
+
 @theme {
     --color-main-bg: #2a3447;
     --color-soft-bg: #384256;
@@ -12,18 +16,16 @@
 
 body {
     font-family: "Titillium Web", sans-serif;
-    background:
-            linear-gradient(
-                    to bottom,
-                    rgba(28, 23, 64, 1) 0%,
-                    rgba(162, 140, 242, 0.95) 100%
-            ),
-
-            linear-gradient(
-                    to bottom,
-                    rgba(20, 15, 40, 0.8) 0%,
-                    rgba(0, 0, 0, 0.6) 100%
-            );
+    background: linear-gradient(
+            to bottom,
+            rgba(28, 23, 64, 1) 0%,
+            rgba(162, 140, 242, 0.95) 100%
+    ),
+    linear-gradient(
+            to bottom,
+            rgba(20, 15, 40, 0.8) 0%,
+            rgba(0, 0, 0, 0.6) 100%
+    );
 
     background-blend-mode: darken;
     min-height: 100vh;
