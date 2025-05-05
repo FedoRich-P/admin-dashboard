@@ -5,11 +5,11 @@ import { Footer } from '../components/footer/Footer.tsx';
 
 export function Layout() {
   return (
-    <div className={'text-main'}>
+    <div className={'text-main flex flex-col'}>
       <Navbar />
-      <div className={'flex'}>
-        <Menu className={'w-60 py-4 px-5 border-r-2 border-soft-bg'}/>
-        <main className={'py-4 px-5 w-full h-full flex flex-column justify-center items-center'}>
+      <div className={'flex h-full flex-1 overflow-hidden'}>
+        <Menu/>
+        <main className={'py-4 px-5 w-full h-full overflow-x-auto'}>
           <Outlet/>
         </main>
       </div>
