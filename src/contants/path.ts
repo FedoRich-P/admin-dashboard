@@ -3,6 +3,7 @@ export const PATH = {
   LOGIN: '/login',
   USERS: '/users',
   PRODUCTS: '/products',
+  PROFILE: '/profile',
   ERROR: '*'
 } as const;
 
